@@ -3,28 +3,49 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by the student -->
-	<div role="button" aria-describedby="more-info" aria-pressed="false">
-		<nav>
-			<a href="#about">About</a>
-			<a href="#description">Description</a>
-			<a href="#project">Project</a>
-			<a href="#contact">Contact</a>
-		</nav>
-		<img src="https://images.unsplash.com/photo-1708610993265-d25da06c533f?q=80&w=1326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="150px" height="180px"/>
-		<h1>ESHA KAR</h1>
-		<p>I am not only a full stack developer but also I ❤️ coding.</p>
-		<ul>
-			<li>Work Experience</li>
-			<li>Projects</li>
-			<li>Interest</li>
-		</ul>
-	</div>
+	<header>
+        <h1>ESHA KAR</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	<main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="https://images.unsplash.com/photo-1708610993265-d25da06c533f?q=80&w=1326&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" width="150px" height="180px"/>
+            <p>I am not only a full stack developer but also I ❤️ coding.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Accessible Blog Platform</li>
+                <li>Responsive Portfolio Website</li>
+                <li>Interactive Web App for Accessibility Testing</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="esha.kar001@gmail.com">esha.kar001@gmail.com</a></p>
+        </section>
+    </main>
+	
+		
+		
+
     <script type="text/javascript" src="./script.js">
 </script>
 
